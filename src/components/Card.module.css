@@ -1,0 +1,28 @@
+.ContainerAll{ 
+    width: 27em;
+    margin-bottom: 1em;
+    background-color: rgb(112, 44, 19);
+    padding-top: 0.2em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.ciudad{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'PT Sans Narrow', sans-serif; /*De Google Fonts*/
+    font-weight:700;
+    color: white;
+}
+
+.title{
+    font-size: 1em;
+    font-family: 'PT Sans Narrow', sans-serif; /*De Google Fonts*/
+    font-weight:700;
+    color: white;
+}
+
+.dato{
+    color: white;
+}

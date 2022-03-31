@@ -1,0 +1,27 @@
+.boxMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 32, 87);
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 60%;
+    position: fixed;
+    top:2em;
+    left:0;
+}
+
+.liMenu{
+    border-bottom-style:solid;
+    border-bottom-width: 0.01em;
+    border-bottom-color: rgb(133, 133, 133);
+    font-size: 1em;
+    font-family: 'PT Sans Narrow', sans-serif; /*De Google Fonts*/
+    font-weight:700;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: white;
+    margin:0 1em;
+    list-style-type: none;
+}

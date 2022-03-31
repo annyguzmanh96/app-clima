@@ -5,12 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('mar.jpg');
+  background-image: url('wallpaperbetter.jpg');
   background-repeat: no-repeat;
   background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
   background-position: center center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
   background-attachment: fixed; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
-  background-color: rgb(202, 202, 202) /* Se muestra un color de fondo mientras se está cargando la image de fondo o si hay problemas para cargarla */
+  background-color: rgba(202, 202, 202); /* Se muestra un color de fondo mientras se está cargando la image de fondo o si hay problemas para cargarla */
 }
 
 code {

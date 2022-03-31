@@ -6,29 +6,38 @@
     padding-left: 7em;
     padding-right: 7em;
     padding-bottom: 1em;
-    margin-bottom: 1.5em;
-    
+    margin-bottom: 1.5em;    
 }
 
 .boxLogo{
     margin: 0;
     padding:0;   
     text-align: center;
+    position: relative;
 }
 
 .logo{ 
     height: 8em;
-    position: relative;
+}
+
+.logo:hover{ 
+    cursor: pointer;
 }
 
 .tlogo{
-    font-size: 1.5em; 
+    font-size: 1.2em; 
     font-weight: bolder;
     position: absolute;
-    top: 3.3em;
-    left: 4.8em;
+    top: 2.6em;
+    left: 0.9em;
     -webkit-text-stroke: 0.3px white;
-    color: black;
+    color: rgb(112, 44, 19);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tlogo:hover{ 
+    cursor: pointer;
 }
 
 .boxMenu{
@@ -51,11 +60,39 @@
 }
 
 .liMenu:hover{
-    color: rgb(255, 136, 0);
+    color: rgb(112, 44, 19);
+    cursor: pointer; 
 }
 
-@media (max-width: 954px) {
-    
-    
+.liMenu:active{
+    color: rgb(112, 44, 19);
+}
+
+.boxHamburger{
+    display: none;
+}
+
+@media (max-width: 800px) {
+  
+    .boxHamburger{
+        display: inline;
+        background-color: rgb(19, 127, 250);
+        width: 100%;
+        position: fixed;
+        top:0em;
+        left: 0em;
+    }
+    .hamburgerMenu{
+        color: white; 
+    }
+
+    .boxMenu{
+        display: none;
+    }
+     
+    .boxLogo{
+        top: 1em;
+    }
+        
 }
 

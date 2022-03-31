@@ -1,12 +1,11 @@
-import { MainContent } from "../components/MainContent";
-import { NavBar } from "../components/NavBar";
+import { Home } from "../pages/Home";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //entry point
 function App() {
   return (
     <div>
-      <NavBar />
-      <MainContent />
+      <Home/>
     </div>
   );
 }

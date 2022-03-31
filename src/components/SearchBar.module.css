@@ -1,0 +1,20 @@
+.containerAll{
+    position: relative;
+    width: 27em;
+}
+
+.searchIcon{
+
+    position: absolute;
+    left: 25em;
+}
+
+.inputCiudades{
+    width: 100%;
+    border-radius: 0.3em;
+    border: none;
+    height: 2.1em;
+}
+.inputCiudades:hover{
+    cursor: pointer;
+}

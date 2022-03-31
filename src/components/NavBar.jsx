@@ -1,10 +1,14 @@
-import logo from './sol.webp';
+import logo from '../imgs/sol.webp';
+import { FaListUl } from 'react-icons/fa';
 import style from './NavBar.module.css';
 
 export function NavBar () {
 
     return (
         <div className={style.containerAll}>
+            <div className={style.boxHamburger}>
+                <FaListUl className={style.hamburgerMenu} size='2em' />
+            </div>
             <div className={style.boxLogo}>
                 <img className={style.logo} src={logo} alt='Logo-Clima'/>
                 <h3 className={style.tlogo}>App Clima</h3>
