@@ -1,4 +1,5 @@
 import { NavBar } from "../components/NavBar";
+import { Footer } from "../components/Footer";
 import { MainContent } from "../components/MainContent";
 
 export function Home(){
@@ -8,6 +9,7 @@ export function Home(){
             {alerta}
             <NavBar />
             <MainContent />
+            <Footer />
         </div>
     )
 }

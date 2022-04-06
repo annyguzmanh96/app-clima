@@ -1,14 +1,15 @@
+//Arhivo que renderiza toda la App
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './container/App';
+import { BrowserRouter } from "react-router-dom";
+import { App } from './container/App';
 import './index.css';
 
-//Renderizaciòn de App
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App/>
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

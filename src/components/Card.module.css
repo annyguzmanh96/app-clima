@@ -1,11 +1,12 @@
-.ContainerAll{ 
+.containerAll{ 
     width: 27em;
-    margin-bottom: 1em;
+    padding-top: 1.2em;
+    margin-bottom: 1.2em;
     background-color: rgb(112, 44, 19);
-    padding-top: 0.2em;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
+    margin-right: 0.5em;
 }
 
 .ciudad{
@@ -25,4 +26,10 @@
 
 .dato{
     color: white;
+}
+
+@media (max-width:445px){
+    .containerAll{
+        width: 20em; 
+    } 
 }

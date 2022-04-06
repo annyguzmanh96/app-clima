@@ -10,8 +10,8 @@ export function SearchBar() {
     return(
         <div className={style.containerAll}>
             <form onSubmit={handleSubmit}>
-                <buttom type='submit' className={style.searchIcon}><FaSearch /></buttom>
-                <input className={style.inputCiudades} placeholder="Buscar otras ciudades" type='text' autofocus='autofocus'/>
+                <button type='submit' className={style.searchIcon}><FaSearch size='1.2em'/></button>
+                <input className={style.inputCiudades} placeholder="Buscar otras ciudades" type='text' autoFocus='autofocus'/>
             </form>
         </div>
     )

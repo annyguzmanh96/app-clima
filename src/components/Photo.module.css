@@ -1,0 +1,61 @@
+.containerAll{
+    width: 27em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 20em;
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+    margin-top: 1em;  
+    margin-right: 0.5em; 
+}
+
+.containerAll:hover{
+    cursor: zoom-in;
+    filter: brightness(80%);
+}
+
+.fiCamera{
+    color: white;
+    width: 100%;
+}
+
+.fiCamera:hover{
+    cursor: zoom-in;
+}
+
+.title{
+    color: white;
+    font-size: 1.1em;
+    font-family: 'PT Sans Narrow', sans-serif; /*De Google Fonts*/
+    font-weight:500;
+    text-align: center;
+}
+
+.title:hover{
+    cursor: zoom-in;
+}
+
+@media (min-width: 701px) and (max-width:1327px){
+    .containerAll{
+        width: 40em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        height: 20em;
+        background-image: url('photo.jpg');
+        background-repeat: no-repeat;
+        margin-top: 1em; 
+    }
+}
+
+@media (max-width:445px){
+    .containerAll{
+        width: 20em; 
+    }    
+}
+
