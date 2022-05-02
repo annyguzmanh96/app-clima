@@ -5,27 +5,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.507);
     background-size: cover;
-    display: flex;
 }
 
 .container{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgba(179, 90, 90, 0.811);
-}
-
-.form{
-    width: 30em;
-    height: 30em;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 3em;
-    font-family: 'PT Sans Narrow', sans-serif; /*De Google Fonts*/;
 }
 
 .DatosContacto{
@@ -41,11 +31,35 @@
     padding: 3em;
 }
 
+.redesSociales{
+    display:flex;
+    justify-content:center;
+    padding-top: 2em;
+    cursor:pointer;
+}
+
+.icono{
+    color: rgb(112, 44, 19);
+}
+
+.form{
+    width: 30em;
+    height: 30em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em;
+    font-family: 'PT Sans Narrow', sans-serif; /*De Google Fonts*/;
+}
+
 .label{
     font-weight: bolder;
+    color: rgb(112, 44, 19);
 }
 
 .formTitle{
     font-size: 2em;
     text-align: center;
+    color: rgb(112, 44, 19);
 }

@@ -1,10 +1,11 @@
 import {FaSearch} from 'react-icons/fa';
-import style from './SearchBar.module.css'
+import style from './SearchBarCards.module.css'
 
 
-export function SearchBar() {
+export function SearchBarCards() {
     let handleSubmit= (e)=> {
         e.preventDefault();//Ya que estamos trabajando una SPA (Single Page Aplication) y esto evita lo que por defecto hace un submit que es recargar la pàgina
+        
     }
 
     return(

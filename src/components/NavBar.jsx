@@ -7,17 +7,17 @@ export function NavBar () {
 
     return (
         <div className={style.containerAll}>
-        
-            <div className={style.boxHamburger}>
-                <FaListUl className={style.hamburgerMenu} size='2em' />
+            
+            <div className={style.boxHamburger}> 
+                <Link to='/DropdownMenu'><FaListUl className={style.hamburgerMenu} size='2em' /></Link> {/*NavBar para DropdownMenu*/}
             </div>
-            <Link to='/' >
+            <Link to='/' > {/*Logo que lleva a Home*/}
                 <div className={style.boxLogo}>
                     <img className={style.logo} src={logo} alt='Logo-Clima'/>
                     <h3 className={style.tlogo}>App Clima</h3>
                 </div>
             </Link>
-            <ul className={style.boxMenu}>
+            <ul className={style.boxMenu}> {/*NavBar Menu Normal*/}
                 <Link to='/'><li className={style.liMenu}>Home</li></Link> 
                 <li className={style.liMenu}>Acesso Clientes</li>
                 <li className={style.liMenu}>Servicios</li>

@@ -1,3 +1,17 @@
+.boxHamburger{
+    display: inline;
+    background-color: rgb(19, 127, 250);
+    width: 100%;
+    position: fixed;
+    top:0em;
+    left: 0em;
+    z-index: 1;
+}
+
+.hamburgerMenu{
+    color: white; 
+}
+
 .boxMenu{
     display: flex;
     flex-direction: column;
@@ -10,7 +24,40 @@
     position: fixed;
     top:2em;
     left:0;
+    z-index: 1;
 }
+.boxLogo{
+    margin: 0;
+    padding:0;   
+    text-align: center;
+    position: relative;
+    top: 1em;
+}
+
+.logo{ 
+    height: 8em;
+}
+
+.logo:hover{ 
+    cursor: pointer;
+}
+
+.tlogo{
+    font-size: 1.2em; 
+    font-weight: bolder;
+    position: absolute;
+    top: 2.6em;
+    left: 0.9em;
+    -webkit-text-stroke: 0.3px white;
+    color: rgb(112, 44, 19);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tlogo:hover{ 
+    cursor: pointer;
+}
+
 
 .liMenu{
     border-bottom-style:solid;
